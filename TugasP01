@@ -19,20 +19,20 @@ BookID, BookTitle, Genre
 'B016', 'Seni Bersikap untuk Bodo Amat', 'Self - Development '
 }
 Logs = {
-MembID, BookID, BorrowDate, ReturnDate
-'M005',	'B004',	'10-Sep-2021',	'16-Sep-2021'
-'M003',	'B010',	'07-Sep-2021',	'13-Sep-2021'
-'M001',	'B009',	'06-Sep-2021',	'12-Sep-2021'
-'M002',	'B016',	'04-Sep-2021',	'10-Sep-2021'
-'M004',	'B007',	'04-Sep-2021',	'10-Sep-2021'
-'M010',	'B013',	'10-Sep-2021',	'16-Sep-2021'
-'M006',	'B003',	'11-Sep-2021',	'17-Sep-2021'
-'M008',	'B001',	'05-Sep-2021',	'11-Sep-2021'
-'M009',	'B015',	'05-Sep-2021',	'11-Sep-2021'
-'M007',	'B014',	'09-Sep-2021',	'15-Sep-2021'
+MembID,	BookID,	BorrowDate,	ReturnDate,	fName
+'M005',	'B004',	'10-Sep-2021',	'16-Sep-2021',	'Aslan'
+'M003',	'B010',	'07-Sep-2021',	'13-Sep-2021',	'Edmund'
+'M001',	'B009',	'06-Sep-2021',	'12-Sep-2021',	'Susan'
+'M002',	'B016',	'04-Sep-2021',	'10-Sep-2021',	'Lucy'
+'M004',	'B007',	'04-Sep-2021',	'10-Sep-2021',	'Peter'
+'M010',	'B013',	'10-Sep-2021',	'16-Sep-2021',	'Annabeth'
+'M006',	'B003',	'11-Sep-2021',	'17-Sep-2021',	'Elsa'
+'M008',	'B001',	'05-Sep-2021',	'11-Sep-2021',	'Kristoff'
+'M009',	'B015',	'05-Sep-2021',	'11-Sep-2021',	'Percy'
+'M007',	'B014',	'09-Sep-2021',	'15-Sep-2021',	'Anna'
 }
 Member = {
-membID, fName, noTelp
+MembID, fName, noTelp
 'M001', 'Susan', '847-319-2447'
 'M002', 'Lucy', '330-601-6183'
 'M003', 'Edmund', '530-676-2168'
