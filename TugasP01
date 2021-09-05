@@ -1,0 +1,46 @@
+group: Perpustakaan
+Book = {
+BookID, BookTitle, Genre
+'B001', 'Hujan', 'Romance-Fiksi'
+'B002', 'The City Of Bones', 'Young-Adult'
+'B003', 'Red Queen ', 'Fantasi'
+'B004', 'Laskar Pelangi', 'Roman '
+'B005', 'Abundance of Katherine ', 'Young-Adult'
+'B006', '1984', 'Sci-Fi '
+'B007', 'Antologi Rasa', 'Fiksi'
+'B008', 'The Immortal of Nicholas Flammel : The Alchemist', 'Young-Adult'
+'B009', 'Maze Runner ', 'Sci-Fi '
+'B010', 'Hunger Games ', 'Sci-Fi '
+'B011', 'Treasury of Greek Mythology: Classic Stories of Gods', 'Sejarah'
+'B012', 'Why : Fossil', 'Non-fiksi'
+'B013', 'Doctor Sleep', 'Thriller'
+'B014', 'Awaken The Giant Within', 'Non-fiksi'
+'B015', 'Crazy Rich Asian ', 'Romansa'
+'B016', 'Seni Bersikap untuk Bodo Amat', 'Self - Development '
+}
+Logs = {
+MembID, BookID, BorrowDate, ReturnDate
+'M005',	'B004',	'10-Sep-2021',	'16-Sep-2021'
+'M003',	'B010',	'07-Sep-2021',	'13-Sep-2021'
+'M001',	'B009',	'06-Sep-2021',	'12-Sep-2021'
+'M002',	'B016',	'04-Sep-2021',	'10-Sep-2021'
+'M004',	'B007',	'04-Sep-2021',	'10-Sep-2021'
+'M010',	'B013',	'10-Sep-2021',	'16-Sep-2021'
+'M006',	'B003',	'11-Sep-2021',	'17-Sep-2021'
+'M008',	'B001',	'05-Sep-2021',	'11-Sep-2021'
+'M009',	'B015',	'05-Sep-2021',	'11-Sep-2021'
+'M007',	'B014',	'09-Sep-2021',	'15-Sep-2021'
+}
+Member = {
+membID, fName, noTelp
+'M001', 'Susan', '847-319-2447'
+'M002', 'Lucy', '330-601-6183'
+'M003', 'Edmund', '530-676-2168'
+'M004', 'Peter', '810-715-9379'
+'M005', 'Aslan', '406-371-0239'
+'M006', 'Elsa', '220-423-6432'
+'M007', 'Anna', '011-7080-4611'
+'M008', 'Kristoff', '810-5555-2323'
+'M009', 'Percy', '330-7601-0357'
+'M010', 'Annabeth', '810-9872-4305'
+}
